@@ -10,7 +10,7 @@ const port = 8080;
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.get('/', (req, res) => {
-  res.send('Hello, Node.js!');
+  res.send('Hello, world!');
 });
 
 app.listen(port, () => {
